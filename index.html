@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRZN</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Querida Karla.</strong>
+                        <p>
+                            Me encanta tu sonrisa, las líneas de tu boca y la expresión de tu rostro;
+                            el cómo lo ilumina y adornan tus ojos.
+                            Por ello, es que me duele mucho cuando tus ojitos se apagan,
+                            y en ese momento, daría todo por ser tu consuelo y esperanza aun cuando fui motivo
+                            de su oscuridad...                           
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
